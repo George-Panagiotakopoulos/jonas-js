@@ -1,11 +1,11 @@
-/*let country = "Greece"
+let country = "Greece"
 const continent = "Europe"
 let population = 10000
 population ++;
 
 const isIsland = false;
 const language = "Greek";
-
+/*
 console.log(isIsland, population, country , language)
 
 let description = `${country} is in ${continent}, and its ${population}million people speak ${language}}`
@@ -29,3 +29,8 @@ if (numNeigbours === 1){
 }
 */
 
+if (language === "english " && population < 50000 && !isIsland){
+    console.log("Yes")
+}else {
+    console.log("No")
+}
