@@ -21,10 +21,15 @@ let markHeight = 1.95;
 let johnMass = 92;
 let johnHeight = 1.76;
 
-MarkBmi = markMass / markHeight ** 2;
-JohnBmi = johnMass / johnHeight ** 2 ;
-markHigherBMI = MarkBmi < JohnBmi;
-console.log (`Marks BMI is ${MarkBmi.toFixed(2)},and Johns is ${JohnBmi.toFixed(2)},is Johns BMI higher?
-${markHigherBMI}`);
-
+markBmi = markMass / markHeight ** 2;
+johnBmi = johnMass / johnHeight ** 2 ;
+markHigherBMI = markBmi < johnBmi;
+//console.log (`Marks BMI is ${MarkBmi.toFixed(2)},and Johns is ${JohnBmi.toFixed(2)},is Johns BMI higher?
+//${markHigherBMI}`);
+//CODING CHALLENGE #2
+if (markBmi > johnBmi){
+    console.log(`Marks Bmi${markBmi.toFixed(2)} is Higher than John's ${johnBmi.toFixed(2)}`)
+}else {
+    console.log(`John's BMI ${johnBmi.toFixed(2)} is higher than Marks ${markBmi.toFixed(2)}`)
+}
 
