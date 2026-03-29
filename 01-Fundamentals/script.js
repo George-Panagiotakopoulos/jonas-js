@@ -38,7 +38,7 @@ markHigherBMI = markBmi < johnBmi;
 
 
 // CODING CHALLENGE #3
-
+/*
 let dolpins = (96 + 108 + 89) / 3
 let coalas = (88 + 91 + 110) / 3
 
@@ -46,6 +46,16 @@ if (dolpins > coalas && dolpins >=100) {
     console.log("Dolphins Win")
 }else if (dolpins < coalas && coalas >=100) {
     console.log("Coalas Win")
+} else if ( dolpins === coalas && dolpins >=100 && coalas >=100){
+    console.log("Both Win the trophy")
 } else {
-    console.log("It's a draw")
+    console.log("no one wins")
 }
+*/
+// CODING CHALLENGE #4
+
+let bill = 400;
+
+const tip = bill >=50 && bill <= 300 ? bill * 0.15 : bill * 0.20
+total = bill + tip;
+console.log (`The bill was ${bill}, the tip was ${tip}, and the total value ${total}`)
